@@ -8,14 +8,14 @@
   "private": false,
   "license": "MIT",
   "publishConfig": {
-    "registry": "你的npm仓库地址"
+    "registry": "https://github.com/heijiyuan/heiheiUI"
   },
   "repository": {
     "type": "git",
-    "url": "git+你的git仓库地址"
+    "url": "git https://github.com/heijiyuan/heiheiUI"
   },
   "bugs": {
-    "url": "issues地址"
+    "url": "https://github.com/heijiyuan/"
   },
   "files": [
     "es",
@@ -35,7 +35,8 @@
   },
   "scripts": {
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -58,7 +59,11 @@
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
-    "babel-plugin-import": "^1.12.2"
+    "babel-plugin-import": "^1.12.2",
+    "cpx": "^1.5.0",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "react-scripts": "^5.0.1"
   }
 }
-
